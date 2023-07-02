@@ -20,6 +20,7 @@
 
 I came here to refresh my knowledge, consolidate my javascript development skills, and get a lot of relevant knowledge in the Front-end.
 
+***
 
 ### Skills
 
