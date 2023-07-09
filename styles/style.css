@@ -1,0 +1,205 @@
+@import "fonts.css";
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    font: inherit;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.container-centred {
+    position: relative;
+    margin: 20px auto;
+    width: 1024px;
+    font-family: Hanken Grotesk, sans-serif;
+    background-color: #f8f8f8;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+}
+
+
+.container-background {
+    position: absolute;
+    top: 29%;
+    left: -20%;
+    display: block;
+    width: 432px;
+    height: 432px;
+    z-index: 2;
+    background-color: #9381FF;
+    filter: blur(50px);
+    border-radius: 50%;
+
+}
+
+.columns {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 3;
+}
+
+.left-column{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    margin: 0 10px;
+    width: 40%;
+}
+
+.portrait {
+margin-bottom: 10px;
+}
+
+.portrait > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.aside_container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+.section-heading {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.contacts > ul > li {
+    display: flex;
+    align-items: center;
+}
+
+.contacts > ul > li > span {
+    margin-left: 5px;
+}
+
+section > ul {
+    padding: 0;
+    font-weight: 400;
+    font-size: 15px;
+    list-style: none;
+}
+
+
+.skill-name {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.skill-text {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+section > ul > li {
+    margin-bottom: 10px;
+}
+
+.right-column {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+header > h1 {
+    margin: 40px 0 15px;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 56px;
+}
+
+header > h2 {
+    margin: 20px 0 55px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 41px;
+}
+
+.about {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.about > p {
+    margin-bottom: 10px;
+}
+
+.education-name {
+    margin-bottom: 5px;
+}
+
+.education-description {
+    font-weight: 300;
+}
+
+.code-example > * {
+    margin-bottom: 10px;
+}
+
+.code-example-task {
+    margin-bottom: 5px;
+}
+
+.code-example-task-text {
+    font-weight: 300;
+    font-size: 15px ;
+}
+
+pre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+code {
+    line-height: 1.5;
+}
+
+.projects > ul > li > a {
+    color: black;
+    text-decoration: none;
+}
+
+.project-description {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.footer_container {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.github-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.github-link > span {
+    margin-left: 5px;
+    color: black
+}
