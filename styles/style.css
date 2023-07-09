@@ -10,14 +10,40 @@
 }
 
 .container-centred {
+    position: relative;
     margin: 20px auto;
     width: 1024px;
     font-family: Hanken Grotesk, sans-serif;
+    background-color: #f8f8f8;
+    z-index: 1;
+    overflow: hidden;
+}
+
+/*.container-filter {
+
+    background: rgba(196, 196, 196, 0.01);
+    filter: blur(50px);
+}*/
+
+.container-background {
+    position: absolute;
+    top: 36%;
+    left: -20%;
+    display: block;
+    width: 432px;
+    height: 432px;
+    z-index: 2;
+    background-color: #9381FF;
+    filter: blur(50px);
+    border-radius: 50%;
+
 }
 
 .columns {
+    position: relative;
     display: flex;
     justify-content: flex-start;
+    z-index: 3;
 }
 
 .left-column{
