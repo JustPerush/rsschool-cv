@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RS School CV</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container-centred">
+        <span class="container-background"></span>
+        <div class="columns">
+            <aside class="left-column">
+                <div class="portrait">
+                    <img src="img/portrait.jpg" alt="Portrait">
+                </div>
+                <div class="aside_container">
+                    <section class="contacts">
+                        <h3 class="section-heading">Contacts</h3>
+                        <ul>
+                            <li>
+                                <img src="icons/email.svg" width="15" height="15" alt="Email">
+                                <span>v.perush@mail.ru</span>
+                            </li>
+                            <li>
+                                <img src="icons/telegram.svg" width="15" height="15" alt="Telegram">
+                                <span>@Just_Perush</span>
+                            </li>
+                            <li>
+                                <img src="icons/discord.svg" alt="Discord" width="15" height="15">
+                                <span>Just_Perush#6585</span>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="skills">
+                        <h3 class="section-heading">Skills</h3>
+                        <ul>
+                            <li>
+                                <span class="skill-name">HTML5</span>
+                            </li>
+                            <li>
+                                <span class="skill-name">Style sheets:</span>
+                                <p class="skill-text">CSS, SASS, SCSS</p>
+                            </li>
+                            <li>
+                                <span class="skill-name">Programming languages:</span>
+                                <p class="skill-text">JavaScript (ES6+), Node.js (Basic), Python </p>
+                            </li>
+                            <li>
+                                <span class="skill-name">Libraries:</span>
+                                <p class="skill-text">React (Basic), Axios</p>
+                            </li>
+                            <li>
+                                <span class="skill-name">Package managers:</span>
+                                <p class="skill-text">NPM, Yarn, pip</p>
+                            </li>
+                            <li>
+                                <span class="skill-name">Bundlers</span>
+                                <p class="skill-text">Vite, Webpack</p>
+                            </li>
+                            <li>
+                                <span class="skill-name">Version control systems</span>
+                                <p class="skill-text">Git</p>
+                            </li>
+                            <li>
+                                <span class="skill-name">Dev environment</span>
+                                <p class="skill-text">WebStorm</p>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="languages">
+                        <h3 class="section-heading">Languages</h3>
+                        <ul>
+                            <li>
+                                <span>English (Intermediate)</span>
+                            </li>
+                            <li>
+                                <span>Russian (Native)</span>
+                            </li>
+                            <li>
+                                <span>Belarusian (Intermediate)</span>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </aside>
+            <div class="right-column">
+                <header>
+                    <h1>Vladislav Poroshkov</h1>
+                    <h2>Junior Frontend Developer</h2>
+                </header>
+                <main class="main-container">
+                    <section class="about">
+                        <h3 class="section-heading">About</h3>
+                        <p>
+                            I came here to refresh my knowledge, consolidate my javascript development
+                            skills, and get a lot of relevant knowledge in the Front-end.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam et
+                            ipsa magnam molestias pariatur rem reprehenderit veniam. Aperiam beatae
+                            consequuntur delectus deserunt dicta doloribus eveniet, impedit ipsum iste
+                            libero molestias, porro quibusdam rem sapiente voluptate? Aliquam dignissimos
+                            dolorum explicabo in modi quidem quo sequi, similique veritatis voluptas.
+                            Harum, perspiciatis.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam et
+                            ipsa magnam molestias pariatur rem reprehenderit veniam. Aperiam beatae
+                            consequuntur delectus deserunt dicta doloribus eveniet, impedit ipsum iste
+                            libero molestias, porro quibusdam rem sapiente voluptate? Aliquam dignissimos
+                            dolorum explicabo in modi quidem quo sequi, similique veritatis voluptas.
+                            Harum, perspiciatis.
+                        </p>
+                    </section>
+                    <section class="education">
+                        <h3 class="section-heading">Education and courses</h3>
+                        <ul>
+                            <li>
+                                <span class="education-name">Belarusian State University of Informatics and Radioelectronics</span>
+                                <p class="education-description">Faculty of Computer Systems and Networks (2019-2023). Systems engineer, Bachelor degree.</p>
+                            </li>
+                            <li>
+                                <span class="education-name">TeachMeSkills</span>
+                                <p class="education-description">Frontend Development course</p>
+                            </li>
+                            <li>
+                                <span class="education-name">Rolling Scopes School</span>
+                                <p class="education-description">Course "JavaScript/Front-end. Stage 0" (in progress)</p>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="code-example">
+                        <h3 class="section-heading">Code example</h3>
+                        <span class="code-example-task">Task:</span>
+                        <p class="code-example-task-text">
+                            Transform any string to ASCII. In the resulting number replace
+                            all the numbers `7` with the number `1`.
+                            Function should return the difference of two numbers.
+                        </p>
+                        <pre>
+                            <code>
+function calcASCIIDifference(stringToCalc) {
+    const total1 = stringToCalc.split('')
+        .map(currentValue => currentValue.charCodeAt(0)).join('')
+    const total2 = total1.split('')
+        .map(currentValue => currentValue === '7' ? '1' : currentValue).join('')
+    return total1 - total2
+}
+console.log(calcASCIIDifference('ABC'))
+                            </code>
+                        </pre>
+                    </section>
+                    <section class="projects">
+                        <h3 class="section-heading">Projects</h3>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <span class="project-name">Axit Project</span>
+                                </a>
+                                <p class="project-description">First markup project. Technologies: HTML+CSS.</p>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span class="project-name">Dashboard</span>
+                                </a>
+                                <p class="project-description">
+                                    Second markup project with adaptive markup and Sass CSS extension.
+                                    Technologies: HTML+SCSS, Gulp.
+                                </p>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span class="project-name">Pexels clone</span>
+                                </a>
+                                <p class="project-description">
+                                    Test project for Softarex Technologies.
+                                    Technologies: HTML+SCSS, JavaScript, React, Vite, ESLint.
+                                </p>
+                            </li>
+                        </ul>
+                    </section>
+                </main>
+            </div>
+        </div>
+        <footer class="footer_container">
+            <a href="https://github.com/JustPerush" class="github-link">
+                <img src="icons/github_logo.svg" width="32" height="32" alt="My github">
+                <span>Visit my Github</span>
+            </a>
+            <span>© 2023</span>
+            <a href="https://rs.school/">
+                <img src="icons/rs_school_js.svg"  width="86" height="32" alt="Rolling Scopes Courses">
+            </a>
+        </footer>
+    </div>
+</body>
+</html>
