@@ -132,6 +132,24 @@
                     </section>
                     <section class="code-example">
                         <h3 class="section-heading">Code example</h3>
+                        <span class="code-example-task">Task:</span>
+                        <p class="code-example-task-text">
+                            Transform any string to ASCII. In the resulting number replace
+                            all the numbers `7` with the number `1`.
+                            Function should return the difference of two numbers.
+                        </p>
+                        <pre>
+                            <code>
+function calcASCIIDifference(stringToCalc) {
+    const total1 = stringToCalc.split('')
+        .map(currentValue => currentValue.charCodeAt(0)).join('')
+    const total2 = total1.split('')
+        .map(currentValue => currentValue === '7' ? '1' : currentValue).join('')
+    return total1 - total2
+}
+console.log(calcASCIIDifference('ABC'))
+                            </code>
+                        </pre>
                     </section>
                     <section class="projects">
                         <h3 class="section-heading">Projects</h3>

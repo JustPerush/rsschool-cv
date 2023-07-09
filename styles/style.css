@@ -111,3 +111,30 @@ header > h2 {
 .education-description {
     font-weight: 300;
 }
+
+.code-example > * {
+    margin-bottom: 10px;
+}
+
+.code-example-task {
+    margin-bottom: 5px;
+}
+
+.code-example-task-text {
+    font-weight: 300;
+    font-size: 15px ;
+}
+
+pre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+code {
+    line-height: 1.5;
+}
