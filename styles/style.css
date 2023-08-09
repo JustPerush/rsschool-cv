@@ -34,9 +34,21 @@ body {
     height: 432px;
     z-index: 2;
     background-color: #9381FF;
-    filter: blur(50px);
+    filter: blur(23px);
     border-radius: 50%;
 
+}
+
+.top {
+    top: -15%;
+    left: 90%;
+}
+
+.bottom {
+    top: 81%;
+    left: 72%;
+    width: 200px;
+    height: 200px;
 }
 
 .columns {
@@ -51,7 +63,6 @@ body {
     flex-direction: column;
     align-items: flex-start;
     padding: 30px;
-    margin: 0 10px;
     width: 40%;
 }
 
